@@ -1,0 +1,7 @@
+
+<app-city-form (cityAdded)="reloadCityData()"></app-city-form>
+
+<div *ngFor="let city of cityData">
+    <app-city [city]="city"></app-city>
+  </div>
+  

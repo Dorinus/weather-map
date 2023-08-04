@@ -1,0 +1,10 @@
+.my-map-container {
+  height: 100%;
+  width: 100%;
+}
+
+.my-map-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensure the image fits within the container */
+}
